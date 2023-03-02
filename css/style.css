@@ -9,9 +9,6 @@
 body {
   font-family: sans-serif;
 }
-strong {
-  font-weight: bold;
-}
 .new-plan {
   display: flex;
   height: 4rem;
@@ -33,6 +30,17 @@ strong {
 }
 .btn {
   font-weight: 600;
-  color: #0071eb;
+  color: #0074ef;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.icon-netflix {
+  height: 2rem;
+  width: 10rem;
+  fill: #e50914;
 }
