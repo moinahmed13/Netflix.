@@ -9,6 +9,9 @@
 body {
   font-family: sans-serif;
 }
+.mian {
+  position: relative;
+}
 .new-plan {
   display: flex;
   height: 4rem;
@@ -68,12 +71,43 @@ body {
 .wrapper {
   background-color: transparent;
   height: 5rem;
-  width: 90%%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   margin: 0 3.5rem 0 3.5rem;
+  position: absolute;
+  z-index: 1;
+  top: 6rem;
 }
 .language-sign-in {
   display: flex;
   gap: 1rem;
+}
+.img-bg {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 2rem;
+  height: 90vh;
+  width: 100%;
+}
+
+.img-bg-gradient {
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8) 0,
+    transparent 60%,
+    rgba(0, 0, 0, 0.8)
+  );
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 2rem;
+  width: 100%;
+  height: 90vh;
+}
+.hero-container {
 }
