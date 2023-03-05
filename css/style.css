@@ -43,8 +43,8 @@ body {
   height: 1.5rem;
 }
 .icon-netflix {
-  height: 2rem;
-  width: 10rem;
+  height: 3rem;
+  width: 15rem;
   fill: #e50914;
 }
 .language {
@@ -84,13 +84,9 @@ body {
   gap: 1rem;
 }
 .img-bg {
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 2rem;
   height: 90vh;
   width: 100%;
+  border-bottom: 8px solid #222;
 }
 
 .img-bg-gradient {
@@ -105,9 +101,95 @@ body {
   left: 0;
   position: absolute;
   right: 0;
-  top: 2rem;
+  top: 5rem;
   width: 100%;
   height: 90vh;
 }
+
+.title-wrapper {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+}
+.title-wrapper h1 {
+  font-size: 4rem;
+}
+.title-wrapper h2 {
+  font-size: 1.6rem;
+}
+.title-wrapper p {
+  font-size: 1.2rem;
+}
 .hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 1rem;
+  text-align: center;
+}
+.email-address {
+  width: 450px;
+  height: 70px;
+  border: 1px solid #8c8c8c;
+  font-size: 16px;
+  padding-left: 0.5rem;
+}
+.get-started {
+  display: flex;
+  background-color: #e50914;
+  color: #fff;
+  height: 70px;
+  width: 250px;
+  font-size: 1.6rem;
+  text-decoration: none;
+  border-left: 1px solid #333;
+  align-items: center;
+  justify-content: center;
+}
+.icon--btn {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.input-plus-button {
+  display: flex;
+  flex-direction: row;
+}
+.animation-container {
+  border-bottom: 8px solid #222;
+  color: #fff;
+  background-color: #000;
+  height: 40rem;
+  width: 100%;
+  padding: 70px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.animation-card p {
+  font-size: 1.6rem;
+}
+.animation-card h2 {
+  font-size: 3rem;
+}
+.animation-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+}
+.animation-img {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  width: 30rem;
+  height: 25rem;
 }
