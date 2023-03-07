@@ -207,7 +207,7 @@ body {
 .heading {
   font-size: 2.3rem;
   line-height: 1.1;
-  margin-bottom: 0.5rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 .list-items {
@@ -220,6 +220,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
+  margin-bottom: 1rem;
 }
 .questions {
   list-style: none;
@@ -234,4 +236,35 @@ body {
 }
 .cta-heading {
   margin-top: 5rem;
+}
+.section-footer {
+  padding: 70px 45px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  gap: 3rem;
+  color: #555;
+}
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 62%;
+  color: #555;
+}
+.footer-links a {
+  text-decoration: none;
+}
+.footer-links a:hover {
+  text-decoration: ;
+}
+.language-sign-in-footer {
+  width: 8rem;
+  height: 3rem;
+  font-size: 1.3rem;
+  background-color: rgba(0, 0, 0, 0.218);
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 2px;
 }
