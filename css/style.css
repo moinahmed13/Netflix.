@@ -189,6 +189,23 @@ body {
 .animation-img {
   display: flex;
   justify-content: center;
+  position: relative;
+}
+.animation-video {
+  position: absolute;
+  top: 1.5rem;
+}
+
+.animation-video video {
+  width: 21.5rem;
+  height: 22rem;
+}
+.animation-video-two {
+  position: absolute;
+}
+.animation-video-two video {
+  width: 19rem;
+  height: 19rem;
 }
 .img {
   width: 30rem;
@@ -252,19 +269,20 @@ body {
   grid-template-columns: repeat(4, 1fr);
   width: 62%;
   color: #555;
+  row-gap: 1.5rem;
 }
 .footer-links a {
   text-decoration: none;
+  color: #555;
 }
 .footer-links a:hover {
   text-decoration: ;
 }
-.language-sign-in-footer {
-  width: 8rem;
-  height: 3rem;
-  font-size: 1.3rem;
-  background-color: rgba(0, 0, 0, 0.218);
-  color: #fff;
-  border: 1px solid #555;
-  border-radius: 2px;
+.contact-num {
+  color: #555;
+  text-decoration: none;
+}
+.footer-header {
+  display: flex;
+  align-items: self-start;
 }
