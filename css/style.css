@@ -195,6 +195,34 @@ body {
   height: 25rem;
 }
 .list-icon {
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 1.9rem;
+  width: 1.9rem;
+}
+.section-list {
+  border-bottom: 8px solid #222;
+  color: #fff;
+  background-color: #000;
+  padding: 70px 45px;
+}
+.heading {
+  font-size: 2.3rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.list-items {
+  font-size: 1.6rem;
+  font-weight: 400;
+  border: 0;
+  margin-bottom: 1px;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.questions {
+  list-style: none;
+  margin: 2em auto;
+  width: 62%;
 }
